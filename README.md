@@ -7,7 +7,7 @@ git config --global http.sslVerify "false"
 git config --list - To list all the configuration values.  
 git config --list --global - To list all the global configuration values.  
 
-git config user.email "ulag.india@gmail.com" - To update the email. 
+git config user.email "ulag.india@gmail.com" - To update the email.  
 
 git config --global user.name "Ulaganathan Vallinayagam" - To update the global user name. 
 git config --global user.email "ulag.india@gmail.com" - To update the global email. 
@@ -29,6 +29,6 @@ git push origin <branch_name> - To push the contents to other branch to local.
 
 ## Maven Commands
 
-mvn clean install -DskipTests - To skip the test case execution.
-mvn spring-boot:run - To start the application from local command prompt.
-mvn clean install -P dev - To run the testcases with dev profile.
+mvn clean install -DskipTests - To skip the test case execution.  
+mvn spring-boot:run - To start the application from local command prompt.  
+mvn clean install -P dev - To run the testcases with dev profile.  
