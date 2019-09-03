@@ -1,7 +1,6 @@
-# github-maven
-Repository for Reference - Github and Maven Commands
+# Repository for Reference - Github and Maven Commands
 
-#Git Commands
+## Git Commands
 
 git config --global http.sslVerify "false"
 
@@ -28,7 +27,7 @@ git merge <branch_name> - Go to the source branch and use this command to pull t
 git pull origin <branch_name> - To pull the contents from other branch to local.
 git push origin <branch_name> - To push the contents to other branch to local.
 
-#Maven Commands
+## Maven Commands
 
 mvn clean install -DskipTests - To skip the test case execution.
 mvn spring-boot:run - To start the application from local command prompt.
