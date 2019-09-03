@@ -9,7 +9,7 @@ git config --list --global - To list all the global configuration values.
 
 git config user.email "ulag.india@gmail.com" - To update the email.  
 
-git config --global user.name "Ulaganathan Vallinayagam" - To update the global user name. 
+git config --global user.name "Ulaganathan Vallinayagam" - To update the global user name.  
 git config --global user.email "ulag.india@gmail.com" - To update the global email. 
 
 git branch -b <branch_name> - To create a new branch.  
@@ -24,8 +24,8 @@ git stash pop - To bring back the changes to local from Hash.
 
 git merge <branch_name> - Go to the source branch and use this command to pull the latest contents from the destination branch.
 
-git pull origin <branch_name> - To pull the contents from other branch to local.
-git push origin <branch_name> - To push the contents to other branch to local.
+git pull origin <branch_name> - To pull the contents from other branch to local.  
+git push origin <branch_name> - To push the contents to other branch to local.  
 
 ## Maven Commands
 
