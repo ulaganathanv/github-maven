@@ -19,8 +19,8 @@ git checkout <branch_name> - To switch over to other branch.
 
 git reset --hard - To revert all your local changes.
 
-git stash - To move your local changes to Hash.
-git stash pop - To bring back the changes to local from Hash.
+git stash - To move your local changes to Hash.  
+git stash pop - To bring back the changes to local from Hash.  
 
 git merge <branch_name> - Go to the source branch and use this command to pull the latest contents from the destination branch.
 
