@@ -37,9 +37,10 @@ git checkout master
 git pull
 
 git merge develop - To merge the contents from develop to master. 
-# <<<<<<< HEAD - Current branch contents start here.
-# ======= - Differentiator of the contents between branches.
-# >>>>>>> develop - Incoming branch contents start here. 
+
+### <<<<<<< HEAD - Current branch contents start here.
+### ======= - Differentiator of the contents between branches.
+### >>>>>>> develop - Incoming branch contents start here. 
 
 git merge --abort - To abort the merge changes.
 
