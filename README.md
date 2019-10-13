@@ -24,6 +24,8 @@ git stash pop - To bring back the changes to local from Hash.
 
 git merge <branch_name> - Go to the source branch and use this command to pull the latest contents from the destination branch.
 
+git fetch origin - It will retrieve the remote branches so that we can git diff or git merge them with the current branch.
+
 git pull origin <branch_name> - To pull the contents from other branch to local.  
 git push origin <branch_name> - To push the contents to other branch to local.  
 
