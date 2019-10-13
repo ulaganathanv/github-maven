@@ -44,6 +44,10 @@ git merge develop - To merge the contents from develop to master.
 
 git merge --abort - To abort the merge changes.
 
+git log --oneline - To list the commit history with one line details. 
+
+git revert commitid - To revert the changes. Need to git push to push the changes again. 
+
 ## Maven Commands
 
 mvn clean install -DskipTests - To skip the test case execution.  
