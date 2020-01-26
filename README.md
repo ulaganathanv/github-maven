@@ -1,4 +1,4 @@
-### Repository for Reference - Github and Maven Commands
+# Repository for Reference - Github and Maven Commands
 
 ## Git Commands
 
@@ -38,9 +38,9 @@ git pull
 
 git merge develop - To merge the contents from develop to master. 
 
-# <<<<<<< HEAD - Current branch contents start here.
-# ======= - Differentiator of the contents between branches.
-# >>>>>>> develop - Incoming branch contents ends here. 
+## <<<<<<< HEAD - Current branch contents start here.
+## ======= - Differentiator of the contents between branches.
+## >>>>>>> develop - Incoming branch contents ends here. 
 
 git merge --abort - To abort the merge changes when MERGE_HEAD is present. 
 git reset --merge ORIG_HEAD - To abort the merge changes when auto merge is completed. 
