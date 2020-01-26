@@ -1,4 +1,10 @@
-# Repository for Reference - Github and Maven Commands
+# Repository for Reference - Mac, Github and Maven Commands
+
+## Mac Commands
+
+ps -ef - To list the process and status. 
+kill -9 <process id> - To kill a particular process. 
+tail -f <file name> - To tail the logs. 
 
 ## Git Commands
 
