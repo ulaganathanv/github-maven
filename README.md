@@ -35,7 +35,7 @@ git fetch origin - It will retrieve the remote branches so that we can git diff 
 git pull origin <branch_name> - To pull the contents from other branch to local.  
 git push origin <branch_name> - To push the contents to other branch to local.  
 
-## Merge Process
+###### Merge Process
 git checkout develop  
 git pull  
 
@@ -44,9 +44,9 @@ git pull
 
 git merge develop - To merge the contents from develop to master. 
 
-## <<<<<<< HEAD - Current branch contents start here.
-## ======= - Differentiator of the contents between branches.
-## >>>>>>> develop - Incoming branch contents ends here. 
+** <<<<<<< HEAD - Current branch contents start here. ** 
+** ======= - Differentiator of the contents between branches. **  
+** >>>>>>> develop - Incoming branch contents ends here. ** 
 
 git merge --abort - To abort the merge changes when MERGE_HEAD is present. 
 git reset --merge ORIG_HEAD - To abort the merge changes when auto merge is completed. 
