@@ -2,9 +2,9 @@
 
 ## Mac Commands
 
-ps -ef - To list the process and status. 
-kill -9 <process id> - To kill a particular process. 
-tail -f <file name> - To tail the logs. 
+ps -ef - To list the process and status.  
+kill -9 <process id> - To kill a particular process.  
+tail -f <file name> - To tail the logs.  
 
 ## Git Commands
 
