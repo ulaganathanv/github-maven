@@ -35,6 +35,10 @@ git fetch origin - It will retrieve the remote branches so that we can git diff 
 git pull origin <branch_name> - To pull the contents from other branch to local.  
 git push origin <branch_name> - To push the contents to other branch to local.  
 
+git clean -n - To see the list of untracked files which will be deleted when the actual command is executed. 
+git clean -f - To delete the untracked files from local. 
+git clean -fd - To delete the untracked directories from local. 
+
 ### Merge Process ###
 git checkout develop  
 git pull  
