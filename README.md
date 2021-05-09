@@ -39,9 +39,9 @@ git clean -n - To see the list of untracked files which will be deleted when the
 git clean -f - To delete the untracked files from local.  
 git clean -fd - To delete the untracked directories from local.  
 
-git branch -d <branch_name> - To delete a branch from local. The -d option will delete the branch only if it has already been pushed and merged with the remote branch.
-git branch -D <branch_name> - Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet. 
-git push origin --delete <branch_name> - To delete a branch from remote as well.
+git branch -d <branch_name> - To delete a branch from local. The -d option will delete the branch only if it has already been pushed and merged with the remote branch.  
+git branch -D <branch_name> - Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.  
+git push origin --delete <branch_name> - To delete a branch from remote as well.  
 
 ### Merge Process ###
 git checkout develop  
